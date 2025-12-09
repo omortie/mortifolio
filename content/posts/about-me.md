@@ -1,6 +1,6 @@
 +++
 date = '2025-09-16T23:07:10+02:00'
-draft = true
+draft = false
 title = 'About Me'
 +++
 ### Senior C++/Qt developer
