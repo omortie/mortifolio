@@ -1,2 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Morteza Sherafati Portfolio</title><link>https://shamortie.com/posts/</link><description>Recent content in Posts on Morteza Sherafati Portfolio</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 09 Dec 2025 19:13:18 +0100</lastBuildDate><atom:link href="https://shamortie.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://shamortie.com/posts/my-first-post/</link><pubDate>Tue, 09 Dec 2025 19:13:18 +0100</pubDate><guid>https://shamortie.com/posts/my-first-post/</guid><description/></item><item><title>About Me</title><link>https://shamortie.com/posts/about-me/</link><pubDate>Tue, 16 Sep 2025 23:07:10 +0200</pubDate><guid>https://shamortie.com/posts/about-me/</guid><description>&lt;h3 id="senior-cqt-developer"&gt;Senior C++/Qt developer&lt;/h3&gt;
-&lt;p&gt;I am a Senior C++/Qt developer with more than 7 years of experience working with many clients with variety of projects during these years.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Morteza Sherafati Portfolio</title>
+    <link>https://shamortie.com/posts/</link>
+    <description>Recent content in Posts on Morteza Sherafati Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Dec 2025 19:13:18 +0100</lastBuildDate>
+    <atom:link href="https://shamortie.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://shamortie.com/posts/my-first-post/</link>
+      <pubDate>Tue, 09 Dec 2025 19:13:18 +0100</pubDate>
+      <guid>https://shamortie.com/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://shamortie.com/posts/about-me/</link>
+      <pubDate>Tue, 16 Sep 2025 23:07:10 +0200</pubDate>
+      <guid>https://shamortie.com/posts/about-me/</guid>
+      <description>&lt;h3 id=&#34;senior-cqt-developer&#34;&gt;Senior C++/Qt developer&lt;/h3&gt;&#xA;&lt;p&gt;I am a Senior C++/Qt developer with more than 7 years of experience working with many clients with variety of projects during these years.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
