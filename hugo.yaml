@@ -25,16 +25,21 @@ markup:
 
 menus:
   main:
+    - identifier: about
+      name: About
+      title: About Me
+      url: /about
+      weight: 1
     - identifier: blog
       name: Blog
       title: Blog posts
       url: /blogs
-      weight: 1
+      weight: 2
     - identifier: projects
       name: Projects
       title: Projects
       url: /projects
-      weight: 2
+      weight: 3
 
 params:
   title: "Morteza Sherafati"
@@ -171,6 +176,15 @@ params:
               - **Documentation**: Documented all components using Doxygen and UML diagrams.
               - **Build System Migration**: Led the migration of all projects from QMake to CMake.
 
+  # Projects section
+  projects:
+    enable: true
+    title: "Projects"
+
+  # Achievements section
+  achievements:
+    enable: false
+
   # Education section
   education:
     enable: true
@@ -184,14 +198,6 @@ params:
           name: "Sirjan University of Technology"
         date: "2009 – 2013"
 
-  # Projects section
-  projects:
-    enable: true
-    title: "Projects"
-
-  # Achievements section
-  achievements:
-    enable: false
 
   # Contact section
   contact:
