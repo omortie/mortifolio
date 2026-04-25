@@ -1,0 +1,282 @@
+baseURL: "https://omortie.github.io/mortifolio/"
+languageCode: "en-us"
+title: "Morteza Sherafati"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    - identifier: projects
+      name: Projects
+      title: Projects
+      url: /#projects
+      weight: 2
+
+params:
+  title: "Morteza Sherafati"
+  description: "Senior Software Engineer — C++ | Qt | Flutter | Python | JavaScript"
+  favicon: "/images/favicon.png"
+
+  useBootstrapCDN: false
+  animate: true
+  mathjax: false
+
+  theme:
+    defaultTheme: "auto"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Morteza Sherafati"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  # Hero section
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Morteza."
+    subtitle: "Senior Software Engineer — C++ | Qt | Flutter | Python"
+    content: "Experienced software engineer with over six years building industrial desktop applications, automation systems, and MVPs. Specializing in Qt/C++, with a strong breadth across Python, Flutter, Node.js, and React."
+    image: /images/hero.svg
+    bottomImage:
+      enable: true
+    button:
+      enable: false
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/omortie
+        - icon: fab fa-linkedin
+          url: https://linkedin.com
+
+  # About section
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    content: |-
+      Experienced software engineer with over six years of hands-on work in C++ and the Qt framework. Skilled in designing, building, and maintaining both large industrial applications and fast MVPs for startups. Comfortable working with international teams and managing projects across different time zones.
+
+      Proficient in modern development tools including Linux environments, CMake, CI/CD pipelines, Git, and Docker. Strong background in both desktop and web development, with experience in automation, SCADA, and ERP systems.
+    skills:
+      enable: true
+      title: "Technologies I work with:"
+      items:
+        - "C++ / Qt"
+        - "Python"
+        - "Dart / Flutter"
+        - "Node.js / React.js"
+        - "JavaScript"
+        - "CMake"
+        - "Docker"
+        - "Linux"
+
+  # Experience section
+  experience:
+    enable: true
+    items:
+      - company: "Freelance"
+        companyUrl: "https://github.com/omortie"
+        jobs:
+          - name: "Senior Software Developer"
+            date: "Sep 2024 – Present"
+            info:
+              content: Remote
+            content: |
+              Involved in a range of projects from startup MVPs to long-term contracts for proprietary systems in Qt and Flutter frameworks.
+
+              - **Security Monitoring Client**: Front-end development with Flutter for a comprehensive security suite monitoring realtime camera devices, GPS devices, and call center integrations.
+              - **Security Suite Server**: Backend with Python/Django, SQLAlchemy/Redis, and GraphQL data pipeline.
+              - **Qt Automation Projects**: Contributed to multiple Qt projects involving direct connections to motors, camera devices, and robots for automation solutions.
+
+      - company: "I&L Biosystems GmbH"
+        companyUrl: "https://www.il-biosystems.com"
+        jobs:
+          - name: "Senior Software Developer"
+            date: "Dec 2021 – Sep 2024"
+            info:
+              content: Remote
+            content: |
+              Played a pivotal role in enhancing and maintaining a desktop industrial application built with Qt.
+
+              - **Application Maintenance**: Ensured seamless functionality of a robust industrial Qt desktop application; addressed user-reported issues with cross-functional teams.
+              - **Framework & Library Upgrades**: Led Qt library upgrades and refactored complex code sections to improve maintainability and performance.
+              - **Build System Optimization**: Implemented CMake optimizations, reducing build times and streamlining the development workflow.
+              - **Agile Development**: Participated in weekly JIRA-based Agile ceremonies with an international team.
+              - **Web Development**: Server management, web scrapers, Shopify app development, and admin panels with Node.js/React.js.
+
+      - company: "Modje Niroo Company"
+        jobs:
+          - name: "Software Developer"
+            date: "Aug 2019 – Feb 2022"
+            content: |
+              Research and development of automation and SCADA systems in the electrical industry.
+
+              - **Technology Research**: In-depth research on automation and SCADA technologies; contributed to high-level strategic planning documents.
+              - **HMI Designer**: Built from the ground up using Qt, integrating HTML, JavaScript, SVG, and CSS to create intuitive Human-Machine Interface solutions.
+              - **HMI Player**: Implemented the runtime player counterpart for the HMI Designer tool.
+
+      - company: "Farapox Co."
+        jobs:
+          - name: "Software Developer"
+            date: "Dec 2017 – Jun 2019"
+            content: |
+              Contributed to the development of an ERP system built with the Qt framework.
+
+              - **Component Design**: Designed and implemented Vertical Grid and Master Detail Dialog components for the ERP system and Applications Framework.
+              - **Documentation**: Documented all components using Doxygen and UML diagrams.
+              - **Build System Migration**: Led the migration of all projects from QMake to CMake.
+
+  # Education section
+  education:
+    enable: true
+    items:
+      - title: "Master of Science — Mechanical Engineering"
+        school:
+          name: "Birjand University"
+        date: "2014 – 2016"
+      - title: "Bachelor's Degree — Mechanical Engineering"
+        school:
+          name: "Sirjan University of Technology"
+        date: "2009 – 2013"
+
+  # Projects section
+  projects:
+    enable: true
+    title: "Projects"
+    items:
+      - title: "HMI Designer"
+        content: "A Qt-based Human-Machine Interface designer built from scratch for SCADA and electrical automation systems. Integrates HTML, JavaScript, SVG, and CSS rendering within Qt to create rich, interactive HMI screens."
+        image: /images/projects/farapox/1708325872372.jpeg
+        badges:
+          - "C++"
+          - "Qt"
+          - "JavaScript"
+          - "SVG"
+          - "Docker"
+
+      - title: "HMI Player"
+        content: "Runtime player counterpart to HMI Designer. Executes and renders HMI configurations created with the designer in live industrial environments."
+        image: /images/projects/farapox/1708325426580.jpeg
+        badges:
+          - "C++"
+          - "Qt"
+          - "CSS"
+          - "Bootstrap"
+
+      - title: "Security Monitoring Suite"
+        content: "A comprehensive security monitoring client built with Flutter for a fast-paced startup. Integrates realtime camera feeds, GPS device tracking, and call center systems into a unified monitoring interface."
+        image: /images/projects/mnc/1723314494001.jpeg
+        badges:
+          - "Flutter"
+          - "Dart"
+          - "Python"
+          - "Django"
+          - "GraphQL"
+          - "Redis"
+
+      - title: "ProteinMaker — I&L Biosystems"
+        content: "Maintained and enhanced the ProteinMaker desktop application for I&L Biosystems GmbH — a precision instrument control suite for protein synthesis. Led Qt library upgrades, CMake build system optimization, and complex code refactoring."
+        image: /images/projects/protein-maker/1751222738313.jpeg
+        badges:
+          - "C++"
+          - "Qt"
+          - "CMake"
+
+      - title: "ERP System — Farapox"
+        content: "Designed and implemented core ERP framework components including Vertical Grid and Master Detail Dialogs in Qt/C++. Led migration of the entire codebase from QMake to CMake and produced comprehensive Doxygen documentation."
+        image: /images/projects/farapox/1708326426486.jpeg
+        badges:
+          - "C++"
+          - "Qt"
+          - "CMake"
+          - "Python"
+
+  # Achievements section
+  achievements:
+    enable: false
+
+  # Contact section
+  contact:
+    enable: true
+    content: "Feel free to reach out — whether you have a question or just want to say hi."
+    btnName: "Mail me"
+    btnLink: "mailto:sherafati.morteza@gmail.com"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/omortie
+      linkedin: https://linkedin.com
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
