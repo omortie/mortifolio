@@ -82,7 +82,7 @@ params:
     title: "Morteza."
     subtitle: "Senior Software Engineer — C++ | Qt | Flutter | Python"
     content: "Experienced software engineer with over six years building industrial desktop applications, automation systems, and MVPs. Specializing in Qt/C++, with a strong breadth across Python, Flutter, Node.js, and React."
-    image: /images/hero.svg
+    image: /images/hero.png
     bottomImage:
       enable: true
     button:
@@ -107,6 +107,8 @@ params:
       Experienced software engineer with over six years of hands-on work in C++ and the Qt framework. Skilled in designing, building, and maintaining both large industrial applications and fast MVPs for startups. Comfortable working with international teams and managing projects across different time zones.
 
       Proficient in modern development tools including Linux environments, CMake, CI/CD pipelines, Git, and Docker. Strong background in both desktop and web development, with experience in automation, SCADA, and ERP systems.
+    readMoreUrl: "/about-me"
+    readMoreLabel: "Read More"
     skills:
       enable: true
       title: "Technologies I work with:"

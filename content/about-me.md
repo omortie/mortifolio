@@ -1,5 +1,5 @@
 ---
-date: "2025-09-16T23:07:10+02:00"
+date: "2026-04-25T18:41:00+02:00"
 draft: false
 title: "About Me"
 layout: "page"
