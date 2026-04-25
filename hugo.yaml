@@ -33,7 +33,7 @@ menus:
     - identifier: projects
       name: Projects
       title: Projects
-      url: /#projects
+      url: /projects
       weight: 2
 
 params:
@@ -188,53 +188,6 @@ params:
   projects:
     enable: true
     title: "Projects"
-    items:
-      - title: "HMI Designer"
-        content: "A Qt-based Human-Machine Interface designer built from scratch for SCADA and electrical automation systems. Integrates HTML, JavaScript, SVG, and CSS rendering within Qt to create rich, interactive HMI screens."
-        image: /images/projects/farapox/1708325872372.jpeg
-        badges:
-          - "C++"
-          - "Qt"
-          - "JavaScript"
-          - "SVG"
-          - "Docker"
-
-      - title: "HMI Player"
-        content: "Runtime player counterpart to HMI Designer. Executes and renders HMI configurations created with the designer in live industrial environments."
-        image: /images/projects/farapox/1708325426580.jpeg
-        badges:
-          - "C++"
-          - "Qt"
-          - "CSS"
-          - "Bootstrap"
-
-      - title: "Security Monitoring Suite"
-        content: "A comprehensive security monitoring client built with Flutter for a fast-paced startup. Integrates realtime camera feeds, GPS device tracking, and call center systems into a unified monitoring interface."
-        image: /images/projects/mnc/1723314494001.jpeg
-        badges:
-          - "Flutter"
-          - "Dart"
-          - "Python"
-          - "Django"
-          - "GraphQL"
-          - "Redis"
-
-      - title: "ProteinMaker — I&L Biosystems"
-        content: "Maintained and enhanced the ProteinMaker desktop application for I&L Biosystems GmbH — a precision instrument control suite for protein synthesis. Led Qt library upgrades, CMake build system optimization, and complex code refactoring."
-        image: /images/projects/protein-maker/1751222738313.jpeg
-        badges:
-          - "C++"
-          - "Qt"
-          - "CMake"
-
-      - title: "ERP System — Farapox"
-        content: "Designed and implemented core ERP framework components including Vertical Grid and Master Detail Dialogs in Qt/C++. Led migration of the entire codebase from QMake to CMake and produced comprehensive Doxygen documentation."
-        image: /images/projects/farapox/1708326426486.jpeg
-        badges:
-          - "C++"
-          - "Qt"
-          - "CMake"
-          - "Python"
 
   # Achievements section
   achievements:
@@ -245,7 +198,7 @@ params:
     enable: true
     content: "Feel free to reach out — whether you have a question or just want to say hi."
     btnName: "Mail me"
-    btnLink: "mailto:sherafati.morteza@gmail.com"
+    btnLink: "mailto:shamortie@gmail.com"
 
   footer:
     recentPosts:
