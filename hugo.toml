@@ -1,4 +1,3 @@
 baseURL = 'https://omortie.github.io/mortifolio/'
 languageCode = 'en-us'
 title = 'Morteza Sherafati Portfolio'
-theme = 'ananke'
