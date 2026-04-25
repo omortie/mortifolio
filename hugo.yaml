@@ -44,7 +44,7 @@ menus:
 params:
   title: "Morteza Sherafati"
   description: "Senior Software Engineer — C++ | Qt | Flutter | Python | JavaScript"
-  favicon: "/images/favicon.png"
+  favicon: "/favicon.png"
 
   useBootstrapCDN: false
   animate: true
@@ -81,7 +81,7 @@ params:
     intro: "Hi, my name is"
     title: "Morteza."
     subtitle: "Senior Software Engineer — C++ | Qt | Flutter | Python"
-    content: "Experienced software engineer with over six years building industrial desktop applications, automation systems, and MVPs. Specializing in Qt/C++, with a strong breadth across Python, Flutter, Node.js, and React."
+    content: "Experienced software engineer with over six years building industrial desktop applications, automation systems, and MVPs. Specializing in Qt/C++, with a strong breadth across Python, Flutter, Node.js, and React. Interested in learning Rust."
     image: /images/hero.png
     bottomImage:
       enable: true
@@ -96,7 +96,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/omortie
         - icon: fab fa-linkedin
-          url: https://linkedin.com
+          url: https://www.linkedin.com/in/morteza-sherafati/
 
   # About section
   about:
