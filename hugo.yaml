@@ -118,6 +118,7 @@ params:
         - "Dart / Flutter"
         - "Node.js / React.js"
         - "JavaScript"
+        - "Rust"
         - "CMake"
         - "Docker"
         - "Linux"
