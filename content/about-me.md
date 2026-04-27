@@ -2,7 +2,7 @@
 date: "2026-04-25T18:41:00+02:00"
 draft: false
 title: "About Me"
-layout: "page"
+layout: "single"
 tags: []
 ---
 
