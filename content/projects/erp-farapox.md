@@ -1,7 +1,7 @@
 ---
 title: "ERP System — Farapox"
 date: 2017-12-01
-image: /images/projects/farapox/1708326426486.jpeg
+image: /images/projects/erp/erp.jpeg
 badges:
   - "C++"
   - "Qt"

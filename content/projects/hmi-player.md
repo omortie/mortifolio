@@ -1,7 +1,7 @@
 ---
 title: "HMI Player"
 date: 2020-02-01
-image: /images/projects/farapox/1708325426580.jpeg
+image: /images/projects/hmi/hmiplayer.jpeg
 badges:
   - "C++"
   - "Qt"

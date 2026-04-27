@@ -1,7 +1,7 @@
 ---
 title: "HMI Designer"
 date: 2019-08-01
-image: /images/projects/farapox/1708325872372.jpeg
+image: /images/projects/hmi/hmidesigner.jpeg
 badges:
   - "C++"
   - "Qt"
