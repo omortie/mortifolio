@@ -24,22 +24,12 @@ markup:
       unsafe: true
 
 menus:
-  main:
-    - identifier: about
-      name: About
-      title: About Me
-      url: /about
-      weight: 1
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 2
-    - identifier: projects
-      name: Projects
-      title: Projects
-      url: /projects
-      weight: 3
+  # main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 2
 
 params:
   title: "Morteza Sherafati"
