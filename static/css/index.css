@@ -255,6 +255,19 @@ header .navbar.animate {
     width: 100%;
 }
 
+#about .btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: #ffffff !important;
+}
+
+#about .btn-primary::after {
+    display: none;
+}
+
+#about .btn-primary:hover {
+    opacity: 0.85;
+}
 /* experience */
 
 #experience h3 {
