@@ -148,6 +148,7 @@ params:
               - **Web Development**: Server management, web scrapers, Shopify app development, and admin panels with Node.js/React.js.
 
       - company: "Modje Niroo Company"
+        companyUrl: "https://modjeniroo.com"
         jobs:
           - name: "Software Developer"
             date: "Aug 2019 – Feb 2022"
@@ -159,6 +160,7 @@ params:
               - **HMI Player**: Implemented the runtime player counterpart for the HMI Designer tool.
 
       - company: "Farapox Co."
+        companyUrl: "https://www.farapox-shiraz.com/"
         jobs:
           - name: "Software Developer"
             date: "Dec 2017 – Jun 2019"

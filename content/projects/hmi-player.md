@@ -8,9 +8,6 @@ badges:
   - "CSS"
   - "Bootstrap"
 tags: []
-links:
-  - icon: fab fa-github
-    url: https://github.com/omortie
 ---
 
 ## Overview

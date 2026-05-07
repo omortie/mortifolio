@@ -7,9 +7,6 @@ badges:
   - "Qt"
   - "CMake"
 tags: []
-links:
-  - icon: fa fa-globe
-    url: https://www.il-biosystems.com
 ---
 
 ## Overview
