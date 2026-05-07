@@ -196,10 +196,7 @@ params:
 
   # Contact section
   contact:
-    enable: true
-    content: "Feel free to reach out — whether you have a question or just want to say hi."
-    btnName: "Mail me"
-    btnLink: "mailto:shamortie@gmail.com"
+    enable: false
 
   footer:
     recentPosts:
@@ -209,8 +206,10 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
+      upwork: https://www.upwork.com/freelancers/~016e183bfdf59cba16
       github: https://github.com/omortie
       linkedin: https://www.linkedin.com/in/morteza-sherafati/
+      email: shamortie@gmail.com
 
   listPages:
     disableFeaturedImage: false

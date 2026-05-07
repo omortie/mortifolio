@@ -1,7 +1,7 @@
 ---
 title: "Security Monitoring Suite"
 date: 2024-09-01
-image: ""
+image: "/images/projects/security/incidents.jpg"
 badges:
   - "Flutter"
   - "Dart"

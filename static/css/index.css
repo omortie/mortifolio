@@ -549,6 +549,42 @@ header .navbar.animate {
     box-shadow: none !important;
 }
 
+.contact-upwork-link {
+    color: var(--text-color) !important;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.contact-upwork-link::after {
+    display: none !important;
+}
+
+.contact-upwork-link:hover {
+    opacity: 1;
+}
+
+.contact-social-links {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-social-links a {
+    color: var(--text-color) !important;
+    opacity: 0.75;
+    transition: opacity 0.3s;
+    text-decoration: none !important;
+    font-size: 1.4rem;
+}
+
+.contact-social-links a::after {
+    display: none !important;
+}
+
+.contact-social-links a:hover {
+    opacity: 1;
+}
 #contact form .form-control {
     background-color: var(--secondary-color);
     color: var(--text-color);

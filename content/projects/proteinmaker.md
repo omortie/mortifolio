@@ -1,5 +1,5 @@
 ---
-title: "ProteinMaker — I&L Biosystems"
+title: "Protein Maker"
 date: 2021-12-01
 image: /images/projects/protein-maker/1751222738313.jpeg
 badges:

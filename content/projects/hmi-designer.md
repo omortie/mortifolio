@@ -13,16 +13,16 @@ tags: []
 
 ## Overview
 
-HMI Designer is a Qt-based Human-Machine Interface authoring tool built from scratch for SCADA and electrical automation systems. It enables engineers to design rich, interactive HMI screens by composing industrial components such as pipes, valves, tanks, sensors, and gauges on a canvas — all backed by live data from industrial protocols.
+HMI Designer is a dedicated environment for crafting visual and database representations of electrical posts through graphical elements. It produces dynamic HMI scenes that have been empirically validated, with successful application in large-scale industrial projects and national sites.
 
 ## Features
 
-- **Drag-and-drop canvas** — compose industrial HMI screens from a rich component library including pipes, connectors, thermodynamics components, sensors, and more
-- **SVG-based rendering** — all components are rendered using SVG, ensuring crisp visuals at any resolution
-- **JavaScript integration** — dynamic behaviour and data bindings are scripted directly in the designer
-- **Live data binding** — components connect to SCADA data sources and update in real time
-- **Property editor** — inline property panel for configuring each component's visual and data properties
-- **Export & deploy** — scenes are saved as `.hmi` files loaded directly by the HMI Player runtime
+- **Graphical scene authoring** — design visual representations of electrical posts using a rich library of industrial graphical elements
+- **Database representation** — define and manage the data model behind each scene alongside its visual counterpart
+- **Dynamic HMI scenes** — elements respond to live data, producing fully animated, real-time visualisations
+- **SVG-based rendering** — crisp, resolution-independent graphics powered by SVG
+- **JavaScript integration** — behaviour and data bindings scripted directly within the designer
+- **Validated at scale** — empirically proven in large-scale industrial projects and national infrastructure sites
 
 ## Technical Details
 
@@ -31,6 +31,5 @@ The designer was built entirely in Qt/C++ with an embedded web engine for SVG/Ja
 ## Tech Stack
 
 - **Qt / C++** — core application framework and UI
-- **SVG + JavaScript** — component rendering and scripting
-- **CSS / Bootstrap** — styling within the embedded web view
+- **SVG + JavaScript** — graphical element rendering and dynamic behaviour scripting
 - **Docker** — containerised build and deployment
