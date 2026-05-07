@@ -87,6 +87,8 @@ params:
           url: https://github.com/omortie
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/morteza-sherafati/
+        - icon: fa fa-envelope
+          url: mailto:shamortie@gmail.com
 
   # About section
   about:
