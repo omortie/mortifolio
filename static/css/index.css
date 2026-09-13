@@ -261,6 +261,10 @@ header .navbar.animate {
     color: #ffffff !important;
 }
 
+.dark #about .btn-primary {
+    color: #000000 !important;
+}
+
 #about .btn-primary::after {
     display: none;
 }
