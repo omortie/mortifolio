@@ -24,12 +24,12 @@ markup:
       unsafe: true
 
 menus:
-  # main:
-    # - identifier: blog
-    #   name: Blog
-    #   title: Blog posts
-    #   url: /blogs
-    #   weight: 2
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
 
 params:
   title: "Morteza Sherafati"
@@ -81,7 +81,7 @@ params:
     content: "Experienced software engineer with over six years building industrial desktop applications, automation systems, and MVPs. Specializing in Qt/C++, with a strong breadth across Python, Flutter, Node.js, and React. Interested in learning Rust."
     image: /images/hero.png
     bottomImage:
-      enable: true
+      enable: false
     button:
       enable: false
       name: "Resume"
