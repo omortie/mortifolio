@@ -36,6 +36,13 @@ params:
   description: "Senior Software Engineer — C++ | Qt | Flutter | Python | JavaScript"
   favicon: "/favicon.png"
 
+  # Global Social Links
+  social:
+    upwork: "https://www.upwork.com/freelancers/~01d0d4f5ec05a70a50"
+    github: "https://github.com/omortie"
+    linkedin: "https://www.linkedin.com/in/morteza-sherafati/"
+    email: "shamortie@gmail.com"
+
   useBootstrapCDN: false
   animate: true
   mathjax: false
@@ -94,7 +101,6 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
     content: |-
       Experienced software engineer with over six years of hands-on work in C++ and the Qt framework. Skilled in designing, building, and maintaining both large industrial applications and fast MVPs for startups. Comfortable working with international teams and managing projects across different time zones.
 
@@ -207,11 +213,6 @@ params:
       title: Recent Posts
       enable: true
       disableFeaturedImage: false
-    socialNetworks:
-      upwork: https://www.upwork.com/freelancers/~016e183bfdf59cba16
-      github: https://github.com/omortie
-      linkedin: https://www.linkedin.com/in/morteza-sherafati/
-      email: shamortie@gmail.com
 
   listPages:
     disableFeaturedImage: false

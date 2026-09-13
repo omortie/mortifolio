@@ -1,7 +1,8 @@
 <div class="text-center pt-2">
-    {{ if .Site.Params.footer.socialNetworks.linkedin }}
+    {{ $linkedin := .Site.Params.social.linkedin | default .Site.Params.footer.socialNetworks.linkedin }}
+    {{ if $linkedin }}
     <span class="px-1">
-        <a href="{{ .Site.Params.footer.socialNetworks.linkedin }}" target="_blank" aria-label="linkedin">
+        <a href="{{ $linkedin }}" target="_blank" aria-label="linkedin">
             <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
                 viewBox="0 0 512 512">
                 <rect width="512" height="512" fill="#0077b5" rx="15%" />
@@ -13,9 +14,10 @@
     </span>
     {{ end }}
 
-    {{ if .Site.Params.footer.socialNetworks.github }}
+    {{ $github := .Site.Params.social.github | default .Site.Params.footer.socialNetworks.github }}
+    {{ if $github }}
     <span class="px-1">
-        <a href="{{ .Site.Params.footer.socialNetworks.github }}" target="_blank" aria-label="github">
+        <a href="{{ $github }}" target="_blank" aria-label="github">
             <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
                 <path id="footer-socialNetworks-github-svg-path"
                     d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
@@ -24,9 +26,10 @@
     </span>
     {{ end }}
 
-    {{ if .Site.Params.footer.socialNetworks.email }}
+    {{ $email := .Site.Params.social.email | default .Site.Params.footer.socialNetworks.email }}
+    {{ if $email }}
     <span class="px-1">
-        <a href="mailto:{{ .Site.Params.footer.socialNetworks.email }}" aria-label="email">
+        <a href="mailto:{{ strings.TrimPrefix "mailto:" $email }}" aria-label="email">
             <svg xmlns="http://www.w3.org/2000/svg" width="2.4em" height="2.4em" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
             </svg>
@@ -34,9 +37,10 @@
     </span>
     {{ end }}
 
-    {{ if .Site.Params.footer.socialNetworks.upwork }}
+    {{ $upwork := .Site.Params.social.upwork | default .Site.Params.footer.socialNetworks.upwork }}
+    {{ if $upwork }}
     <span class="px-1">
-        <a href="{{ .Site.Params.footer.socialNetworks.upwork }}" target="_blank" aria-label="upwork">
+        <a href="{{ $upwork }}" target="_blank" aria-label="upwork">
             <svg xmlns="http://www.w3.org/2000/svg" width="2.4em" height="2.4em" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.546-1.405 0-2.543-1.14-2.543-2.546V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z"/>
             </svg>
