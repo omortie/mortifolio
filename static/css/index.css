@@ -553,7 +553,7 @@ header .navbar.animate {
     box-shadow: none !important;
 }
 
-.contact-upwork-link {
+.contact-contra-link {
     color: var(--text-color) !important;
     opacity: 0.8;
     transition: opacity 0.3s;
@@ -561,11 +561,11 @@ header .navbar.animate {
     text-decoration: none !important;
 }
 
-.contact-upwork-link::after {
+.contact-contra-link::after {
     display: none !important;
 }
 
-.contact-upwork-link:hover {
+.contact-contra-link:hover {
     opacity: 1;
 }
 
